@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <form class="my_form" id="form" action="/" method="GET">
+        <div class="username_box">
+            <div>            
+                <label for="username">Username: </label>
+                <input id="username" name="username" type="text">
+            </div>
+            <div id="username_error" class="username_error"></div>
+            <div id="username_mark" class ="correct_mark"></div>
+        </div>
+        <div class="email_box">
+            <div>
+                <label for="email">E-mail: </label>
+                <input id="email" name="email" type="text">
+            </div>
+            <div id="email_error" class="email_error"></div>
+            <div id="email_mark" class ="correct_mark"></div>
+        </div>
+        <div class="position_box">
+            <div>
+                <label for="position">Position: </label>
+                <select id="position" name="email">
+                    <option value="none">Not Selected</option>
+                    <option value="engineer">Engineer</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="mechanic">Mechanic</option>
+                </select>
+            </div>
+            <div id="position_error" class="position_error"></div>
+            <div id="position_mark" class ="correct_mark"></div>
+        </div>
+        <div class="type_box">
+            <div>Type:</div>
+            <div>            
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" name="type" id="full" value="full">
+                        <label for="full">Full-time</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="type" id="part" value="part">
+                        <label for="part">Part-time</label>
+                    </div>
+                </div>
+            </div>
+            <div id="type_error" class="type_error"></div>
+            <div id="type_mark" class ="correct_mark"></div>
+        </div>
+        <div><button type="submit">Submit</button></div>
+    </form>
+</body>
+</html> 

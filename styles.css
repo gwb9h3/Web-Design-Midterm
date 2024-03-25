@@ -1,0 +1,43 @@
+.my_form {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px; /* Adjust padding as needed */
+}
+.radio-group {
+    display: inline-block;
+}
+
+.radio-group div {
+    display: block;
+}
+
+.username_box{
+    display:flex;
+}
+.username_error{
+    color:red;
+}
+
+.email_box{
+    display:flex;
+}
+.email_error{
+    color:red;
+}
+
+.position_box{
+    display:flex;
+}
+.position_error{
+    color:red;
+}
+
+.type_box{
+    display:flex;
+}
+.type_error{
+    color:red;
+}
+.correct_mark{
+    color:green;
+}
